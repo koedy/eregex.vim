@@ -208,7 +208,7 @@ endif
 let loaded_eregex=1
 "=============================================================================
 "Commands And Mappings:
-command! -nargs=? -range E2v :<line1>,<line2>call <SID>ExtendedRegex2VimRegexLineWise(<q-args>)
+"command! -nargs=? -range E2v :<line1>,<line2>call <SID>ExtendedRegex2VimRegexLineWise(<q-args>)
 command! -nargs=? M :call <SID>Ematch(<q-args>)
 "command! -nargs=? -range S :<line1>,<line2>call <SID>Esubstitute(<q-args>)
 command! -nargs=? -range S :<line1>,<line2>call <SID>Esubstitute(<q-args>) <Bar> :noh
